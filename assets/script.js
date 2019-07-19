@@ -43,7 +43,7 @@ var setup = {
                 }
             }]
         }
-    }
+    },
 
 
 };
@@ -56,7 +56,6 @@ var mychart = new Chart(ctx, setup);
 // 1 = alcohol
 // 2 = smoking
 
-// do this when you click a data point
 canvas.onclick = function (itemClickedOn) {
     var activeItem = mychart.getElementAtEvent(itemClickedOn);
     var link = '';
